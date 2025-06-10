@@ -2,7 +2,6 @@ import { Prettify } from "types/helpers"
 import usePrinter from "./actions"
 import * as S from "./styles"
 import { getClassName } from "utils/className"
-import PrinterDocument from "./document"
 
 type TPrintProps = ReturnType<typeof usePrinter>
 
@@ -38,6 +37,5 @@ function PrinterPage({
 }
 
 PrinterPage.usePrinter = usePrinter
-PrinterPage.Document = PrinterDocument
 
 export default PrinterPage
