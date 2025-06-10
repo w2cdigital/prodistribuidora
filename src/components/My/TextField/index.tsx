@@ -27,26 +27,25 @@ type MyTextFieldProps = Prettify<
     description?: string
     errorMessage?: string | ((validation: ValidationResult) => string)
   } & (
-    | {
-      tag?: "Input"
-      search?: boolean
-    }
-    | {
-      tag?: "TextArea"
-    }
-    | ({
-      tag?: "Mask"
-    } & Prettify<
       | {
-        maskType?: IMaskTypes
-      }
+          tag?: "Input"
+          search?: boolean
+        }
       | {
-        maskProps?: IMaskPropsTypes
-      }
-    >)
-  )
+          tag?: "TextArea"
+        }
+      | ({
+          tag?: "Mask"
+        } & Prettify<
+          | {
+              maskType?: IMaskTypes
+            }
+          | {
+              maskProps?: IMaskPropsTypes
+            }
+        >)
+    )
 >
-
 
 function MyTextField({
   label,
@@ -57,7 +56,7 @@ function MyTextField({
   onChange,
   ...allProps
 }: MyTextFieldProps) {
-  const { maskType, maskProps, ...props } = (allProps as any)
+  const { maskType, maskProps, ...props } = allProps as any
   const Element = { Input, Mask: MaskInput, TextArea }[tag]
   const [show, setShow] = useState(undefined)
   const maskOBJ: any = {}

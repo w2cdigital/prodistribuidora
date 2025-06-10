@@ -16,16 +16,14 @@ function Product({ name, price, image }) {
         sizes="100vw"
         alt={name}
       />
-      <p>
-        {name}
-      </p>
-      <b>{formatMoney(price)} <span>un</span></b>
+      <p>{name}</p>
+      <b>
+        {formatMoney(price)} <span>un</span>
+      </b>
       <My.Button>
         <SVG icon="Cart" />
         <span>Adicionar ao Carrinho</span>
       </My.Button>
-
-
     </S.ProductWrapper>
   )
 }

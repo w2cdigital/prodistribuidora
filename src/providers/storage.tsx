@@ -14,7 +14,7 @@ const initialState: TCheckList = {
 function useCreateStorage({ theme }) {
   const [storage, setStorage] = useLocalStorage(
     "storage",
-    { ...initialState, theme  },
+    { ...initialState, theme },
     {
       initializeWithValue: false,
     },

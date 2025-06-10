@@ -7,7 +7,6 @@ import Image from "next/image"
 function SearchBar() {
   return (
     <S.SearchBar>
-
       <My.Button.Link href={"/"} className="category">
         <SVG icon="Menu" />
         <p>Categorias</p>
@@ -31,9 +30,7 @@ function SearchBar() {
           <br />
           leva o negócio a sério!
         </p>
-
       </div>
-
     </S.SearchBar>
   )
 }

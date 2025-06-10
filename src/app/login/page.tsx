@@ -12,9 +12,7 @@ function LoginPage() {
       <div className="content">
         <section>
           <h2>Login</h2>
-          <p>
-            Já é cliente? Faça o seu login abaixo:
-          </p>
+          <p>Já é cliente? Faça o seu login abaixo:</p>
         </section>
         <Form onSubmit={(e) => e.preventDefault()}>
           <div className="sec">
@@ -23,7 +21,9 @@ function LoginPage() {
           </div>
           <div className="sec">
             <My.Button type="submit">Entrar</My.Button>
-            <My.Button.Link variant="outline" href="/cadastro">Ainda não sou cliente</My.Button.Link>
+            <My.Button.Link variant="outline" href="/cadastro">
+              Ainda não sou cliente
+            </My.Button.Link>
           </div>
         </Form>
         <p>

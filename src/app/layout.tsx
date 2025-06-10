@@ -16,7 +16,7 @@ export async function generateMetadata() {
     icons: {
       icon: "/favicon.ico",
     },
-/*     alternates: {
+    /*     alternates: {
       canonical: "https://grupomedtech.com.br/",
     },
     verification: {
@@ -55,7 +55,6 @@ type TRootLayout = {
 }
 
 async function RootLayout({ children }: TRootLayout) {
-
   return (
     <html lang="pt-br">
       {envs.node === "production" && (
@@ -66,9 +65,7 @@ async function RootLayout({ children }: TRootLayout) {
         </>
       )}
       <GlobalProvider>
-        <S.Layout>
-          {children}
-        </S.Layout>
+        <S.Layout>{children}</S.Layout>
       </GlobalProvider>
     </html>
   )

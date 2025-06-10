@@ -23,61 +23,57 @@ function Header() {
           </Link>
           <ul>
             <li>
-              <My.Button.Link href={"/"} >
-                Início
-              </My.Button.Link>
+              <My.Button.Link href={"/"}>Início</My.Button.Link>
             </li>
             <li>
-              <My.Button.Link href={"/nossa-empresa"} >
+              <My.Button.Link href={"/nossa-empresa"}>
                 Nossa Empresa
               </My.Button.Link>
             </li>
             <li>
-              <My.Button.Link href={"/catalogo"} >
+              <My.Button.Link href={"/catalogo"}>
                 Catálogo de Produtos
               </My.Button.Link>
             </li>
             <li>
-              <My.Button.Link href={"/parceiros"} >
-                Parceiros
-              </My.Button.Link>
+              <My.Button.Link href={"/parceiros"}>Parceiros</My.Button.Link>
             </li>
             <li>
-              <My.Button.Link href={"/contato"} >
-                Contato
-              </My.Button.Link>
+              <My.Button.Link href={"/contato"}>Contato</My.Button.Link>
             </li>
-
           </ul>
           <SVG icon="Menu" />
         </nav>
-        {state === "online" && <section>
-          <p>
-            <span>
-              Olá Nome Pessoa
-              <br />
-              Você está online!
-            </span>
-          </p>
-          <My.Button.Link href={"/"} className="cart">
-            <SVG icon="Cart" />
-            <p>0 itens</p>
-          </My.Button.Link>
-        </section>}
-        {state === "offline" && <section>
-          <p>
-            <span>
-              Faça o seu login
-              <br />
-              ou <Link href={"/cadastro"}>CADASTRE-SE</Link>
-            </span>
-          </p>
-          <My.Button.Link href={"/login"} className="cart">
-            <SVG icon="Avatar" />
-            <p>Login</p>
-          </My.Button.Link>
-        </section>
-        }
+        {state === "online" && (
+          <section>
+            <p>
+              <span>
+                Olá Nome Pessoa
+                <br />
+                Você está online!
+              </span>
+            </p>
+            <My.Button.Link href={"/"} className="cart">
+              <SVG icon="Cart" />
+              <p>0 itens</p>
+            </My.Button.Link>
+          </section>
+        )}
+        {state === "offline" && (
+          <section>
+            <p>
+              <span>
+                Faça o seu login
+                <br />
+                ou <Link href={"/cadastro"}>CADASTRE-SE</Link>
+              </span>
+            </p>
+            <My.Button.Link href={"/login"} className="cart">
+              <SVG icon="Avatar" />
+              <p>Login</p>
+            </My.Button.Link>
+          </section>
+        )}
       </div>
     </S.HeaderWrapper>
   )

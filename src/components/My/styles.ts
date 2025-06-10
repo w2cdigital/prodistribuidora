@@ -2,7 +2,7 @@ import { css } from "styled-components"
 import { GlobalScroll } from "styles/scroll"
 
 export const InputStyle = css`
-  >label{
+  > label {
     padding-left: 1rem;
   }
   .react-aria-SelectButton,
@@ -14,7 +14,7 @@ export const InputStyle = css`
     border-radius: 20px;
     font-size: 1rem;
     border: 1px solid transparent;
-    background: #D9E1E6;
+    background: #d9e1e6;
     color: var(--grey1000);
     width: 100%;
 

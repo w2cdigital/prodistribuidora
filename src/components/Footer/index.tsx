@@ -21,16 +21,26 @@ export default function Footer() {
       <div>
         <p>Formas de pagamento</p>
         <ul>
-          <li><SVG icon="Mastercard" /></li>
-          <li><SVG icon="Visa" /></li>
-          <li><SVG icon="Pix" /></li>
+          <li>
+            <SVG icon="Mastercard" />
+          </li>
+          <li>
+            <SVG icon="Visa" />
+          </li>
+          <li>
+            <SVG icon="Pix" />
+          </li>
         </ul>
       </div>
       <div>
         <p>Siga-nos nas redes sociais:</p>
         <ul>
-          <li><SVG icon="Instagram" /></li>
-          <li><SVG icon="Facebook" /></li>
+          <li>
+            <SVG icon="Instagram" />
+          </li>
+          <li>
+            <SVG icon="Facebook" />
+          </li>
         </ul>
       </div>
       <div>
@@ -43,7 +53,6 @@ export default function Footer() {
         </p>
       </div>
       <span>© 2025 Pro Distribuidora. Todos os direitos reservados.</span>
-
     </S.Footer>
   )
 }

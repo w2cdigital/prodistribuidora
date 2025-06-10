@@ -5,19 +5,11 @@ import { useStorage } from "./storage"
 import { getLuminance, setLightness, setSaturation } from "polished"
 import { useMemo } from "react"
 import { cloneDeep } from "lodash"
-import { usePathname } from "next/navigation"
 
-function Theme({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+function Theme({ children }: { children: React.ReactNode }) {
   const {
     storage: { theme },
   } = useStorage()
-  const pathname = usePathname()
-  const screen = pathname?.slice(1)
-
   const Colors = useMemo(() => {
     const c = cloneDeep(AllThemes[theme].colors)
 
@@ -31,7 +23,7 @@ function Theme({
       c.secondary = setSaturation(0.9, setLightness(0.6, c.secondary))
     }
     return c
-  }, [ theme, screen])
+  }, [theme])
 
   return (
     <ThemeProvider

@@ -12,12 +12,9 @@ function ParceirosPage() {
     <S.MeuCarrinhoWrapper>
       <SearchBar />
       <div className="content">
-
         <section>
           <h2>Meu Carrinho</h2>
-          <p>
-            Confira abaixo os produtos do seu carrinho.
-          </p>
+          <p>Confira abaixo os produtos do seu carrinho.</p>
         </section>
         <S.Menu>
           <aside>
@@ -50,9 +47,7 @@ function ParceirosPage() {
               <span>Favoritos</span>
             </My.Button>
           </aside>
-          <article>
-
-          </article>
+          <article></article>
         </S.Menu>
       </div>
     </S.MeuCarrinhoWrapper>

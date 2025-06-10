@@ -7,7 +7,10 @@ import styled, { createGlobalStyle, css } from "styled-components"
 import { colorNames } from "styles/colors"
 import { GlobalScroll } from "styles/scroll"
 
-export const Font = Poppins({ subsets: ["latin"], weight: ["200", "300", "400", "500", "600", "700", "800"] })
+export const Font = Poppins({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+})
 
 export const GlobalStyle = createGlobalStyle(
   ({ theme: { colors } }) => css`
@@ -153,7 +156,6 @@ export const Main = styled.main(
     min-height: 100vh;
   `,
 )
-
 
 export function Layout({ children }) {
   return (

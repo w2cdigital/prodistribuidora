@@ -6,11 +6,9 @@ function ParceirosPage() {
     <S.ParceirosWrapper>
       <SearchBar />
       <div className="content">
-
         <section>
           <h2>Parceiros</h2>
         </section>
-        
       </div>
     </S.ParceirosWrapper>
   )

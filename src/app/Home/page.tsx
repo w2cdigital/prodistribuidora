@@ -23,7 +23,9 @@ function HomePage() {
           <div>
             <p>
               <span className="label">Desinfetante</span>
-              <b>Cif <span>PRO</span></b>
+              <b>
+                Cif <span>PRO</span>
+              </b>
               <span className="desc">
                 Imbatível na
                 <br />
@@ -32,7 +34,9 @@ function HomePage() {
                 superfícies.
               </span>
             </p>
-            <My.Button.Link color="white" variant="outline" href="/">Comprar</My.Button.Link>
+            <My.Button.Link color="white" variant="outline" href="/">
+              Comprar
+            </My.Button.Link>
           </div>
         </section>
       </div>
@@ -40,7 +44,10 @@ function HomePage() {
       <section className="content">
         <section>
           <h2>Mais Vendidos</h2>
-          <p>Garanta os produtos de higiene e limpeza mais vendidos do mercado para manter seu negócio sempre impecável.</p>
+          <p>
+            Garanta os produtos de higiene e limpeza mais vendidos do mercado
+            para manter seu negócio sempre impecável.
+          </p>
         </section>
       </section>
       <section className="products">
@@ -59,7 +66,12 @@ function HomePage() {
               sizes="100vw"
               alt="Unilever Pro"
             />
-            <span>Somos distribuidores oficiais Unilever Pro, atendendo empresas e revendedores no PA e AP com produtos de higiene e limpeza de alto desempenho. Garantimos preços competitivos, entrega ágil e um portfólio completo para manter seu negócio sempre abastecido.</span>
+            <span>
+              Somos distribuidores oficiais Unilever Pro, atendendo empresas e
+              revendedores no PA e AP com produtos de higiene e limpeza de alto
+              desempenho. Garantimos preços competitivos, entrega ágil e um
+              portfólio completo para manter seu negócio sempre abastecido.
+            </span>
           </p>
 
           <ul>
@@ -74,7 +86,9 @@ function HomePage() {
                 <br />
                 clientes.
               </p>
-              <My.Button.Link color="white" variant="outline" href="/">Ver mais</My.Button.Link>
+              <My.Button.Link color="white" variant="outline" href="/">
+                Ver mais
+              </My.Button.Link>
             </li>
             <li style={{ backgroundImage: "url(/images/lavanderias.png)" }}>
               <h3>Lavanderias</h3>
@@ -85,7 +99,9 @@ function HomePage() {
                 <br />
                 cuidado com os tecidos e economia.
               </p>
-              <My.Button.Link color="white" variant="outline" href="/">Ver mais</My.Button.Link>
+              <My.Button.Link color="white" variant="outline" href="/">
+                Ver mais
+              </My.Button.Link>
             </li>
             <li style={{ backgroundImage: "url(/images/restaurantes.png)" }}>
               <h3>Restaurantes</h3>
@@ -96,7 +112,9 @@ function HomePage() {
                 <br />
                 profissional.
               </p>
-              <My.Button.Link color="white" variant="outline" href="/">Ver mais</My.Button.Link>
+              <My.Button.Link color="white" variant="outline" href="/">
+                Ver mais
+              </My.Button.Link>
             </li>
           </ul>
         </div>
@@ -111,7 +129,13 @@ function HomePage() {
           alt="Pablo Costa"
         />
         <div>
-          <p>Na Pro Distribuidora, temos orgulho em levar ao mercado soluções que realmente fazem a diferença. Trabalhar com a linha Unilever PRO nos permite oferecer aos nossos clientes produtos de alta performance, com qualidade comprovada e foco em eficiência. É uma parceria que reforça nosso compromisso com a excelência e com o sucesso dos nossos clientes.”
+          <p>
+            Na Pro Distribuidora, temos orgulho em levar ao mercado soluções que
+            realmente fazem a diferença. Trabalhar com a linha Unilever PRO nos
+            permite oferecer aos nossos clientes produtos de alta performance,
+            com qualidade comprovada e foco em eficiência. É uma parceria que
+            reforça nosso compromisso com a excelência e com o sucesso dos
+            nossos clientes.”
           </p>
           <span>
             — <b>Pablo Costa</b>, CEO da Pro Distribuidora.
