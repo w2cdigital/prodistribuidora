@@ -9,7 +9,7 @@ import { Metadata } from "next"
 
 export async function generateMetadata() {
   return {
-    title: "CifPro",
+    title: "Pro Distribuidora",
     description:
       "A Pro Distribuidora é uma empresa especializada na distribuição de soluções profissionais em higiene e limpeza, com atuação consolidada nos estados do Pará e Amapá. Com foco em qualidade, eficiência operacional e atendimento personalizado, a empresa se destaca como distribuidora oficial da linha Unilever PRO, reconhecida por sua performance superior no setor institucional.",
     viewport: "width=device-width, initial-scale=1, maximum-scale=1",
