@@ -11,6 +11,7 @@ import CalendarSmall from "./calendarSmall"
 import Basket from "./basket"
 import Star from "./star"
 import Historic from "./historic"
+import Gallery from "./gallery"
 
 export {
   Cart,
@@ -26,4 +27,5 @@ export {
   Basket,
   Star,
   Historic,
+  Gallery,
 }
