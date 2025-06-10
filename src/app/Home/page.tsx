@@ -4,7 +4,7 @@ import SearchBar from "components/SearchBar"
 import My from "components/My"
 import * as S from "./styles"
 import Product from "components/Product"
-import { mockProducts } from "app/catalogo/page"
+import { mockProducts } from "app/catalogo/mock"
 function HomePage() {
   return (
     <S.HomeWrapper>
